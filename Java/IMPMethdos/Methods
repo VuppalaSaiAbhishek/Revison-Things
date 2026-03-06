@@ -1,0 +1,189 @@
+packages import java.util.*;(VVIMP);
+This includes --> 
+Scanner
+ArrayList
+Arrays
+Collections
+
+Scanner sc = new Scanner(System.in);
+
+
+Print in Same in line - System.out.print("Hello");
+Print in Differnet Line - System.out.println("Hello");
+
+
+nextInt() → number matrame read chestundi
+nextLine() → full line read chestundi
+
+
+Note :: Manam Apudu Ayitha nextInt() vaduthamoo at last lo nextLine() ke kuda add chyali it take empty buffer
+int a = sc.nextInt();
+sc.nextLine();   // clear buffer
+String name = sc.nextLine();
+
+
+if(str1 == str2) (Wrong in Strings)
+if(str1.equals(str2)) (Correct in Strings)
+
+
+== → memory compare
+equals() → value compare
+
+Length -->
+Array - arr.length
+String - str.length()
+List - list.size()
+
+
+Access -->
+Array - arr[i]
+List - arr.get(i)
+
+
+Modify -->
+Array - arr[i] = 10;
+ArrayList - arr.set(i,10);
+
+
+Sorting -->
+Arrays.sort(arr);
+
+String to Integer
+int x = Integer.parseInt(str);
+
+Split string
+String[] arr = str.split(" ");
+
+Convert String → Char Array
+char[] arr = str.toCharArray();
+
+Integer.parseInt(str);
+Double.parseDouble(str);
+Long.parseLong(str);
+
+
+Number → String Conversion 
+String s = String.valueOf(123);
+
+
+Character Conversion
+Character.getNumericValue(c);
+int x = Character.getNumericValue('5'); //5
+
+
+loops -->
+for(int x : arr)
+for(String s : list)
+for(Integer key : map.keySet())
+for(Map.Entry<K,V> entry : map.entrySet())
+
+Arrays ->
+arr.length -- Array Length
+Arrays.sort(arr);
+Arrays.toString(arr); -- Print Array
+Arrays.equals(arr1, arr2); -- Compare Arrays
+Arrays.binarySearch(arr,key); -- Binary Search
+Arrays.fill(arr, value); -- Fill Array
+Arrays.copyOf(arr,newSize); -- Copy Array
+Arrays.copyOfRange(arr,start,end); - Copy Range
+Arrays.asList(arr); -- Convert Array → List
+
+
+
+Strings ->
+str.length() -- Length of String
+str.charAt(index) -- Character at Index
+str1.equals(str2) -- Compare Strings
+str1.equalsIgnoreCase(str2) -- Ignore Case Comparison
+str.toCharArray() -- Convert String → Array
+str.split(" ")
+str.substring(start,end) -- Substring
+str.contains("abc") -- Check Contains
+str.indexOf('a') -- Index of Character
+str.lastIndexOf('a') -- Last Index
+str.replace('a','b') -- Replace Characters
+str.trim() -- Trim Spaces
+str.startsWith("ab") -- Starts With
+str.endsWith("le") -- Ends With
+
+
+
+ArrayList Methods -->
+list.add(value); -- Add Element
+list.get(index); -- Get Element
+list.size(); -- Size of List
+list.remove(index); -- Remove Element
+list.set(index,value); -- Update Element
+list.contains(value); -- Check Element Exists
+list.add(index,value); -- Add at Specific Position
+list.clear(); -- Clear List
+list.isEmpty(); -- Check Empty
+list.indexOf(value); -- Index of Element
+list.toArray(); -- Convert to Array
+list.clone(); -- Clone the array List
+Ex: ArrayList<Integer> copy = (ArrayList<Integer>) list.clone();
+Collections.sort(list); -- Sort the List
+Collections.reverse(list); -- Reverse the List
+
+
+
+StringBuilder Methods -->
+sb.append(value); -- Add text or numbers at the end.
+sb.toString(); -- Convert StringBuilder → String.
+sb.setLength(0); -- Clear the StringBuilder.
+sb.length(); -- current length.
+sb.delete(start, end); -- Remove characters.
+sb.insert(index,value); -- Insert at position
+sb.charAt(index); -- Get character
+sb.reverse(); -- Reverse StringBuilder
+
+
+HashSet Methods -->
+Most Used -->
+    set.add(value); -- Add element to the set
+    set.contains(value); -- Check element exists
+    set.remove(value); -- Remove element
+    set.size(); -- Size of set
+    set.isEmpty(); -- Check set empty or not
+    set.clear(); -- Remove all elements
+Commonly Used -->
+    set.iterator(); -- Iterate elements
+    set.toArray(); -- Convert set to array
+    set.addAll(collection); -- Add all elements from another collection
+    set.removeAll(collection); -- Remove elements of another collection
+    set.containsAll(collection); -- Check all elements exist
+
+
+HashMap Methods -->
+Mostly Used -->
+    map.put(key,value); -- Add key value pair
+    map.get(key); -- Get value using key
+    map.containsKey(key); -- Check key exists
+    map.containsValue(value); -- Check value exists
+    map.remove(key); -- Remove key value pair
+    map.size(); -- Size of map
+    map.isEmpty(); -- Check map empty
+    map.clear(); -- Remove all entries
+Commonly Used
+    map.keySet(); -- Get all keys
+    map.values(); -- Get all values
+    map.entrySet(); -- Get key value pairs
+    map.putAll(map2); -- Copy another map
+    map.getOrDefault(key,defaultValue); -- Return default if key not found
+
+
+Math Methods -->
+Math.max(a,b); -- Maximum
+Math.min(a,b); -- Minimum
+Math.abs(a); -- Absolute value
+Math.pow(a,b); -- Power
+Math.sqrt(a); -- Square root
+Math.floor(a); -- Floor value
+Math.ceil(a); -- Ceiling value
+
+Character Methods-->
+Character.isDigit(c);
+Character.isLetter(c);
+Character.isUpperCase(c);
+Character.isLowerCase(c);
+Character.isWhitespace(c);
