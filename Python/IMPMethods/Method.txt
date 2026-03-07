@@ -1,0 +1,146 @@
+Input -->
+a = int(input())        # Integer input
+b = float(input())      # Float input
+s = input()             # String input
+
+
+for i in range(n) -- Loop from 0 to n-1
+for i in range(start,end) -- Loop from start to end-1
+for i in range(start,end,step) -- Loop with step value
+
+break -- Stop loop immediately
+continue -- Skip current iteration
+
+arr[::-1] -- List Reverse
+str[::-1] -- String Reverse
+
+
+Multiple input -->
+a, b = map(int, input().split())
+
+Array input-->
+arr = list(map(int, input().split()))
+
+Same Line-->
+print("Hello", end="")
+
+Different line-->
+print("Hello")
+
+String → Integer -->
+x = int("123")
+
+String → Float -->
+x = float("10.5")
+
+Number → String -->
+s = str(123)
+
+
+Lists ->
+len(arr) -- Length of List
+arr[i] -- Access Element
+arr.append(value) -- Add element at end
+arr.pop() -- Remove last element
+arr.pop(index) -- Remove element at index
+arr[i] = value -- Update element
+for x in arr -- Loop through list
+arr.sort() -- Sort the list
+sorted(arr) -- Return sorted list
+arr.reverse() -- Reverse the list
+arr.insert(index,value) -- Insert element at position
+arr.remove(value) -- Remove element by value
+arr.count(value) -- Count occurrences
+arr.index(value) -- Get index of value
+arr.clear() -- Remove all elements
+arr.copy() -- Copy list
+sum(arr) -- Sum of elements
+max(arr) -- Maximum value
+min(arr) -- Minimum value
+
+String Methods -->
+len(str) -- Length of String
+str[i] -- Character at Index
+str1 == str2 -- Compare Strings (Value comparison)
+str.lower() -- Convert to Lowercase
+str.upper() -- Convert to Uppercase
+str.split(" ") -- Split String
+str.strip() -- Remove spaces from start & end
+str.replace("a","b") -- Replace Characters
+"abc" in str -- Check substring exists
+str[start:end] -- Substring (Slicing)
+str.find("a") -- Find index of substring
+str.rfind("a") -- Last index of substring
+str.count("a") -- Count occurrences
+str.startswith("ab") -- Starts With
+str.endswith("le") -- Ends With
+str.isdigit() -- Check if all digits
+str.isalpha() -- Check if all letters
+str.isalnum() -- Check letters + numbers
+str.capitalize() -- First letter capital
+str.title() -- Capitalize every word
+
+
+Dictionary (Dict) ->
+mp[key] = value -- Add / Update key value pair
+mp[key] -- Get value using key
+mp.get(key) -- Get value safely
+key in mp -- Check key exists
+del mp[key] -- Remove key value pair
+len(mp) -- Size of dictionary
+mp.clear() -- Remove all entries
+mp.keys() -- Get all keys
+mp.values() -- Get all values
+mp.items() -- Get key value pairs
+mp.get(key,default) -- Return default if key not found
+mp.pop(key) -- Remove key and return value
+mp.popitem() -- Remove last inserted item
+
+
+Set ->
+s = set() -- Create empty set
+s.add(value) -- Add element
+s.remove(value) -- Remove element (error if not found)
+s.discard(value) -- Remove element safely
+value in s -- Check element exists
+len(s) -- Size of set
+s.clear() -- Remove all elements
+s.pop() -- Remove random element
+s.union(set2) -- Union of sets
+s.intersection(set2) -- Common elements
+
+
+Math Functions ->
+
+Mostly Used -->
+max(a,b) -- Maximum value
+min(a,b) -- Minimum value
+abs(x) -- Absolute value
+pow(a,b) -- Power (a^b)
+round(x) -- Round to nearest integer
+sum(arr) -- Sum of list elements
+
+Commonly Used -->
+import math
+math.sqrt(x) -- Square root
+math.ceil(x) -- Ceiling value
+math.floor(x) -- Floor value
+math.factorial(x) -- Factorial
+math.gcd(a,b) -- Greatest common divisor
+math.lcm(a,b) -- Least common multiple
+
+Less Used -->
+math.log(x) -- Natural logarithm
+math.log10(x) -- Log base 10
+math.exp(x) -- e^x
+math.sin(x) -- Sine
+math.cos(x) -- Cosine
+math.tan(x) -- Tangent
+math.degrees(x) -- Radians → Degrees
+math.radians(x) -- Degrees → Radians
+
+
+(Note : Might Not Work in Some of the Compilers Be Careful While Using)
+enumerate(arr) -- Gives index and value while looping
+for i,v in enumerate(arr):
+    print(i,v)

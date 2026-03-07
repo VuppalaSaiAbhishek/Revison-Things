@@ -8,14 +8,14 @@ public class arrInputs{
 
         
         //CASE1:1 2 3 4 5
-        // String[] token = s.split("\\s+");
-        // // ArrayList<Integer> arr = new ArrayList<>();
-        // // for(String a : token){
-        // //     arr.add(Integer.parseInt(a));
-        // // }
-        // // for(int a:arr){
-        // //     System.out.println(a);
-        // // }
+        String[] token = s.split("\\s+");
+        ArrayList<Integer> arr = new ArrayList<>();
+        for(String a : token){
+            arr.add(Integer.parseInt(a));
+        }
+        for(int a:arr){
+            System.out.println(a);
+        }
 
 
 
@@ -51,26 +51,26 @@ public class arrInputs{
         
 
         // //CASE3 : [-1.5,3.4,6.0],{1.3,5.7,4.5}
-        // StringBuilder numStr = new StringBuilder();
-        // ArrayList<Double> arr = new ArrayList<>();
-        // for(char a:s.toCharArray()){
-        //     if(Character.isDigit(a) || a=='-' || a=='.'){
-        //         numStr.append(a);
-        //     }
-        //     else{
-        //       if(numStr.length()>0) {
-        //             arr.add(Double.parseDouble(numStr.toString()));
-        //             numStr.setLength(0);
-        //       }    
-        //     }
-        // }
-        // if(numStr.length()>0){
-        //     arr.add(Double.parseDouble(numStr.toString()));
-        //     numStr.setLength(0);
-        // }
-        // for(Double a:arr){
-        //     System.out.println(a);
-        // }
+        StringBuilder numStr = new StringBuilder();
+        ArrayList<Double> arr = new ArrayList<>();
+        for(char a:s.toCharArray()){
+            if(Character.isDigit(a) || a=='-' || a=='.'){
+                numStr.append(a);
+            }
+            else{
+              if(numStr.length()>0) {
+                    arr.add(Double.parseDouble(numStr.toString()));
+                    numStr.setLength(0);
+              }    
+            }
+        }
+        if(numStr.length()>0){
+            arr.add(Double.parseDouble(numStr.toString()));
+            numStr.setLength(0);
+        }
+        for(Double a:arr){
+            System.out.println(a);
+        }
 
 
 
@@ -81,13 +81,13 @@ public class arrInputs{
         // 3
         // 4
 
-        // ArrayList<Integer> arr = new ArrayList<>();
-        // while(sc.hasNextInt()){
-        //     arr.add(sc.nextInt());
-        // }
-        // for(int i:arr){
-        //     System.out.println(i);
-        // }
+        ArrayList<Integer> arr = new ArrayList<>();
+        while(sc.hasNextInt()){
+            arr.add(sc.nextInt());
+        }
+        for(int i:arr){
+            System.out.println(i);
+        }
 
 
 
@@ -98,14 +98,14 @@ public class arrInputs{
         // 2
         // 3
         // 4
-        // int a = sc.nextInt();
-        // int[] arr = new int[a];
-        // for(int i=0;i<a;i++){
-        //     arr[i] = sc.nextInt();
-        // }
-        // for(int z:arr){
-        //     System.out.println(z);
-        // }
+        int a = sc.nextInt();
+        int[] arr = new int[a];
+        for(int i=0;i<a;i++){
+            arr[i] = sc.nextInt();
+        }
+        for(int z:arr){
+            System.out.println(z);
+        }
 
 
         

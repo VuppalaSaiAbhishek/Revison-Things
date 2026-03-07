@@ -1,0 +1,30 @@
+Java --> Python
+
+
+
+List -->
+ArrayList.add(x) → arr.append(x)
+ArrayList.get(i) → arr[i]
+ArrayList.set(i,x) → arr[i] = x
+ArrayList.remove(i) → arr.pop(i)
+ArrayList.size() → len(arr)
+Collections.sort(list) → arr.sort()
+
+
+map -->
+HashMap.put(key,value) → mp[key] = value
+HashMap.get(key) → mp[key] / mp.get(key)
+HashMap.containsKey(key) → key in mp
+HashMap.remove(key) → del mp[key]
+HashMap.size() → len(mp)
+HashMap.keySet() → mp.keys()
+HashMap.values() → mp.values()
+HashMap.entrySet() → mp.items()
+
+Set -->
+HashSet.add(x) → s.add(x)
+HashSet.remove(x) → s.remove(x)
+HashSet.contains(x) → x in s
+HashSet.size() → len(s)
+HashSet.clear() → s.clear()
+
