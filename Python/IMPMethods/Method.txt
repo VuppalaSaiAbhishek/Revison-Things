@@ -3,6 +3,9 @@ a = int(input())        # Integer input
 b = float(input())      # Float input
 s = input()             # String input
 
+MAX_Element = import sys , sys.maxsize
+
+MIN_Element = import sys, -sys.maxsize-1
 
 for i in range(n) -- Loop from 0 to n-1
 for i in range(start,end) -- Loop from start to end-1
