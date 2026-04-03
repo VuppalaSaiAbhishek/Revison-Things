@@ -17,6 +17,9 @@ continue -- Skip current iteration
 arr[::-1] -- List Reverse
 str[::-1] -- String Reverse
 
+ord('A') - 65
+chr(65) - A
+
 
 Multiple input -->
 a, b = map(int, input().split())
