@@ -20,6 +20,9 @@ str[::-1] -- String Reverse
 ord('A') - 65
 chr(65) - A
 
+A-Z = 65-90
+a - z = 97-122
+0 - 9 - 48-57
 
 Multiple input -->
 a, b = map(int, input().split())
